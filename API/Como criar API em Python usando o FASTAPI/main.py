@@ -6,10 +6,13 @@
 # pip install uvicorn
 
 from fastapi import FastAPI
-
+#
+#
+#
 minha_api = FastAPI()
 # pra executar uma API, abra o terminal na pasta
-# uvicorn main:minha_api --reload
+#     uvicorn main:minha_api --reload
+#
 
 # criar rotas ( routes )
 @minha_api.get("/")
